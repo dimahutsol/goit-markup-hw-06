@@ -1,0 +1,121 @@
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.second-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #4d5ae5;
+}
+
+.address-link {
+  color: inherit;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #4d5ae5;
+}
+
+.service {
+  background-color: #2e2f42;
+}
+
+.service-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.service-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.service-button:hover,
+.service-button:focus {
+  background-color: #404bbf;
+}
+
+.advantages-name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.team-role {
+  text-align: center;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e2f42;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
