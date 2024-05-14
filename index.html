@@ -14,47 +14,49 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Homework 2</title>
+    <title>Homework 3</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header-container">
-          <nav class="header-nav">
-            <a class="logo" href="./index.html"
-              >Web<span class="logo-accent">Studio</span></a
-            >
-            <ul class="header-links">
-              <li><a class="nav-link" href="./index.html">Studio</a></li>
-              <li><a class="nav-link" href="">Portfolio</a></li>
-              <li><a class="nav-link" href="">Contacts</a></li>
-            </ul>
-          </nav>
-          <address class="contacts">
-            <ul class="contacts-links">
-              <li>
-                <a class="contacts-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="contacts-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo header-logo" href="./index.html"
+            >Web<span class="logo-accent">Studio</span></a
+          >
+          <ul class="header-links">
+            <li class="header-item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="contacts-links">
+            <li>
+              <a class="contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
 
     <main>
       <section class="service section">
         <div class="container">
-          <div class="service-container">
-            <h1 class="service-title">Effective Solutions for Your Business</h1>
-            <button class="service-button" type="button">Order Service</button>
-          </div>
+          <h1 class="service-title">Effective Solutions for Your Business</h1>
+          <button class="service-button" type="button">Order Service</button>
         </div>
       </section>
 
@@ -64,28 +66,28 @@
             Strategy Punctuality Diligence Technologies
           </h2>
           <ul class="advantages">
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-name">Strategy</h3>
               <p class="advantages-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-name">Punctuality</h3>
               <p class="advantages-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-name">Diligence</h3>
               <p class="advantages-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-name">Technologies</h3>
               <p class="advantages-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -107,8 +109,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Mark Guerrero</h3>
-              <p class="team-role">Product Designer</p>
+              <div class="team-info">
+                <h3 class="team-name">Mark Guerrero</h3>
+                <p class="team-role">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -117,8 +121,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Tom Ford</h3>
-              <p class="team-role">Frontend Developer</p>
+              <div class="team-info">
+                <h3 class="team-name">Tom Ford</h3>
+                <p class="team-role">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -127,8 +133,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Camila Garcia</h3>
-              <p class="team-role">Marketing</p>
+              <div class="team-info">
+                <h3 class="team-name">Camila Garcia</h3>
+                <p class="team-role">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -137,8 +145,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Daniel Wilson</h3>
-              <p class="team-role">UI Designer</p>
+              <div class="team-info">
+                <h3 class="team-name">Daniel Wilson</h3>
+                <p class="team-role">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -148,7 +158,7 @@
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-container">
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/img-01.jpg"
                 alt="Banking app"
@@ -160,7 +170,7 @@
                 <p class="portfolio-text">App</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/img-02.jpg"
                 alt="Picture of Cashless payment process"
@@ -172,7 +182,7 @@
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/img-03.jpg"
                 alt="Picture of Meditation app"
@@ -184,7 +194,7 @@
                 <p class="portfolio-text">App</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/img-04.jpg"
                 alt="Picture of a taxi"
@@ -196,7 +206,7 @@
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/img-05.jpg"
                 alt="Picture of a phone"
@@ -208,7 +218,7 @@
                 <p class="portfolio-text">Design</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/img-06.jpg"
                 alt="Photo of girl with phone"
@@ -227,7 +237,7 @@
 
     <footer class="footer">
       <div class="container">
-        <a class="logo" href="./index.html"
+        <a class="logo footer-logo" href="./index.html"
           >Web<span class="logo-accent-footer">Studio</span></a
         >
         <p class="footer-text">
