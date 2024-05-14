@@ -78,6 +78,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -122,6 +123,7 @@ ul {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .service-button {
@@ -156,13 +158,6 @@ ul {
 }
 
 .advantages-title {
-  /* font-size: 36px;
-  font-weight: 700;
-  text-align: center;
-  color: #2e2f42;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  margin-bottom: 72px; */
   position: absolute;
   width: 1px;
   height: 1px;
@@ -212,6 +207,8 @@ ul {
 
 .team-card {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-info {
