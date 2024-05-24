@@ -157,6 +157,7 @@ ul {
   display: flex;
   align-items: center;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .service-title {
@@ -353,6 +354,10 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-item-wrap {
+  display: block;
+}
+
 .portfolio-item-top {
   position: relative;
   overflow: hidden;
@@ -373,13 +378,15 @@ ul {
   color: #f4f4fd;
 }
 
-.portfolio-item:hover {
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .portfolio-overlay {
+.portfolio-item:hover .portfolio-overlay,
+.portfolio-item:focus .portfolio-overlay {
   transform: translateY(0);
 }
 
