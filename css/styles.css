@@ -747,23 +747,7 @@ textarea {
   gap: 8px;
 }
 
-.contacts-checkbox-custom {
-  width: 16px;
-  height: 16px;
-  display: inline-flex;
-  display: inline-flex;
-  display: inline-flex;
-  display: inline-flex;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* was old checkbox-custom */
 
 .contacts-checkbox-link {
   color: #4d5ae5;
@@ -812,6 +796,20 @@ textarea {
 .contacts-form-button:hover,
 .contacts-form-button:focus {
   background-color: #404bbf;
+}
+
+.contacts-checkbox-custom {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion /Modal */
