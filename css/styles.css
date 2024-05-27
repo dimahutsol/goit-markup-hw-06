@@ -1,6 +1,8 @@
 :root {
   --white: #ffffff;
   --subtitle: #2e2f42;
+  --semiwhite: #f4f4fd;
+  --accent: #404bbf;
 }
 
 /* #region Base */
@@ -682,6 +684,7 @@ textarea {
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
   font-size: 14px;
   margin-bottom: 8px;
   background-color: transparent;
@@ -767,9 +770,9 @@ textarea {
 .contacts-checkbox-input:checked
   + .contacts-ckeckbox-label
   .contacts-checkbox-custom {
-  background-color: #404bbf;
+  background-color: var(--accent);
   border: none;
-  fill: #f4f4fd;
+  fill: var(--semiwhite);
 }
 
 .contacts-form-button {
