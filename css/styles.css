@@ -811,7 +811,7 @@ textarea {
 }
 
 .span-flex {
-  display: inline-flex;
+  display: flex;
 }
 
 /* #endregion /Modal */
