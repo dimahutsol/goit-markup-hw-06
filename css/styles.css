@@ -727,6 +727,10 @@ textarea {
   letter-spacing: 0.04em;
 }
 
+.textarea-color {
+  color: rgba(46, 47, 66, 0.4);
+}
+
 .contacts-checkbox-box {
   margin-bottom: 24px;
   display: flex;
@@ -755,6 +759,10 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.span-flex {
+  display: inline-flex;
 }
 
 .contacts-checkbox-link {
