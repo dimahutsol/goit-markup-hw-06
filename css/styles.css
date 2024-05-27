@@ -594,7 +594,7 @@ textarea {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-overlay .is-open {
+.is-open {
   opacity: 1;
   pointer-events: auto;
 }
@@ -772,6 +772,12 @@ textarea {
   .contacts-checkbox-custom {
   background-color: var(--accent);
   border: none;
+}
+
+.contacts-checkbox-input:checked
+  + .contacts-ckeckbox-label
+  .contacts-checkbox-custom
+  .contacts-checkbox-icon {
   fill: var(--semiwhite);
 }
 
