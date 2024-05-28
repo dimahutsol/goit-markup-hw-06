@@ -74,10 +74,6 @@ textarea {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
-.contacts-checkbox-custom {
-  display: inline-flex;
-}
 /* #endregion /Base */
 
 /* #region Header */
@@ -752,9 +748,9 @@ textarea {
 }
 
 .contacts-checkbox-custom {
+  display: inline-flex;
   width: 16px;
   height: 16px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -814,7 +810,4 @@ textarea {
   background-color: #404bbf;
 }
 
-.contacts-checkbox-custom {
-  display: inline-flex;
-}
 /* #endregion /Modal */
