@@ -595,7 +595,7 @@ textarea {
 
 .is-open {
   opacity: 1;
-  pointer-events: auto;
+  pointer-events: visible;
 }
 
 .modal {
