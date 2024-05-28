@@ -772,6 +772,10 @@ textarea {
   fill: transparent;
 }
 
+.contacts-checkbox-icon {
+  display: inline-flex;
+}
+
 .contacts-checkbox-link {
   color: #4d5ae5;
   text-decoration: underline;
