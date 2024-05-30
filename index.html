@@ -40,18 +40,23 @@
         </nav>
         <address class="contacts">
           <ul class="contacts-links">
-            <li>
+            <li class="contacts-links-item">
               <a class="contacts-link" href="mailto:info@devstudio.com">
                 info@devstudio.com
               </a>
             </li>
-            <li>
+            <li class="contacts-links-item">
               <a class="contacts-link" href="tel:+110001111111">
                 +11 (000) 111-11-11
               </a>
             </li>
           </ul>
         </address>
+        <button class="header-menu-button">
+          <svg class="header-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- #endregion /Header -->
@@ -133,6 +138,7 @@
           <ul class="team-cards">
             <li class="team-card">
               <img
+                srcset="./images/img.jpg 1x, ./images/img@2x.jpg 2x"
                 src="./images/img.jpg"
                 alt="Photo of Mark Guerrero"
                 width="264"
@@ -184,6 +190,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/img-1.jpg 1x, ./images/img-1@2x.jpg 2x"
                 src="./images/img-1.jpg"
                 alt="Photo of Tom Ford"
                 width="264"
@@ -235,6 +242,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/img-2.jpg 1x, ./images/img-2@2x.jpg 2x"
                 src="./images/img-2.jpg"
                 alt="Photo of Camila Garcia"
                 width="264"
@@ -286,6 +294,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/img-3.jpg 1x, ./images/img-3@2x.jpg 2x"
                 src="./images/img-3.jpg"
                 alt="Photo of Daniel Wilson"
                 width="264"
@@ -348,6 +357,7 @@
             <li class="portfolio-item">
               <div class="portfolio-item-top">
                 <img
+                  srcset="./images/img-01.jpg 1x, ./images/img-01@2x.jpg 2x"
                   src="./images/img-01.jpg"
                   alt="Banking app"
                   width="360"
@@ -367,6 +377,7 @@
             <li class="portfolio-item">
               <div class="portfolio-item-top">
                 <img
+                  srcset="./images/img-02.jpg 1x, ./images/img-02@2x.jpg 2x"
                   src="./images/img-02.jpg"
                   alt="Picture of Cashless payment process"
                   width="360"
@@ -386,6 +397,7 @@
             <li class="portfolio-item">
               <div class="portfolio-item-top">
                 <img
+                  srcset="./images/img-03.jpg 1x, ./images/img-03@2x.jpg 2x"
                   src="./images/img-03.jpg"
                   alt="Picture of Meditation app"
                   width="360"
@@ -405,6 +417,7 @@
             <li class="portfolio-item">
               <div class="portfolio-item-top">
                 <img
+                  srcset="./images/img-04.jpg 1x, ./images/img-04@2x.jpg 2x"
                   src="./images/img-04.jpg"
                   alt="Picture of a taxi"
                   width="360"
@@ -424,6 +437,7 @@
             <li class="portfolio-item">
               <div class="portfolio-item-top">
                 <img
+                  srcset="./images/img-05.jpg 1x, ./images/img-05@2x.jpg 2x"
                   src="./images/img-05.jpg"
                   alt="Picture of a phone"
                   width="360"
@@ -443,6 +457,7 @@
             <li class="portfolio-item">
               <div class="portfolio-item-top">
                 <img
+                  srcset="./images/img-06.jpg 1x, ./images/img-06@2x.jpg 2x"
                   src="./images/img-06.jpg"
                   alt="Photo of girl with phone"
                   width="360"
@@ -510,7 +525,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-subscibe">
+        <div class="footer-subscribe">
           <p class="footer-subscribe-title footer-media-title">Subscribe</p>
           <form class="footer-form" name="subscribe-form">
             <label class="footer-subscribe-label">
@@ -612,8 +627,10 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="contacts-checkbox-link" href="#">Privacy Policy</a>
+              <p class="contacts-checkbox-label-p">
+                I accept the terms and conditions of the
+                <a class="contacts-checkbox-link" href="#">Privacy Policy</a>
+              </p>
             </label>
           </div>
           <button class="contacts-form-button" type="submit">Send</button>
@@ -621,5 +638,81 @@
       </div>
     </div>
     <!-- #endregion /Modal -->
+
+    <!-- #region Modal-Menu -->
+    <div class="menu">
+      <button class="modal-close menu-close" type="button">
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="container menu-container">
+        <nav class="menu-nav">
+          <ul class="menu-nav-links">
+            <li class="menu-item">
+              <a
+                class="menu-nav-link menu-nav-link-current"
+                href="./index.html"
+              >
+                Studio
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-nav-link" href="">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-bottom-box">
+          <address class="menu-address">
+            <ul class="menu-links">
+              <li class="menu-links-item">
+                <a class="menu-link" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="menu-links-item">
+                <a class="menu-link" href="tel:+110001111111">
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-socials">
+            <li class="menu-socials-item">
+              <a href="https://www.instagram.com/" class="menu-socials-link">
+                <svg class="menu-socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-socials-item">
+              <a href="https://twitter.com/" class="menu-socials-link">
+                <svg class="menu-socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-socials-item">
+              <a href="https://www.facebook.com/" class="menu-socials-link">
+                <svg class="menu-socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-socials-item">
+              <a href="https://www.linkedin.com/" class="menu-socials-link">
+                <svg class="menu-socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion /Modal-Menu -->
   </body>
 </html>
